@@ -110,12 +110,14 @@ html,body {
     font-weight: bold;
     padding: 3px 8px;
     border-radius: 3px;
+    font-family: serif;
   }
 
 .symnonym_list {
     position: relative;
     top: 15%;
-    left: 13%;
+    left: 10.5%;
+    padding-bottom: 5rem;
 }
 
 ul {
