@@ -17,7 +17,7 @@ ul      = section.find("ul")
 li_list = ul.find_all("li")
 
 symnonym_list = []
-for ___ in range(0,5):
+for ___ in range(0,8):
     span     = li_list[___].span
     a        = span.a
 

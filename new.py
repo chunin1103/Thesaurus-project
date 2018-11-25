@@ -4,7 +4,7 @@ Cơ quan thanh tra được chủ động yêu cầu xác minh với những cá
 
 "Trường hợp xác minh được những bất thường, cơ quan thanh tra, kiểm toán... sẽ làm rõ dấu hiệu vi phạm và chuyển sang cơ quan thuế hoặc cơ quan điều tra xử lý", ông Tuấn Anh nhấn mạnh.
 
-Để phục vụ việc này, Luật dành một tiểu mục quy định "cơ sở dữ liệu quốc gia về kiểm soát tài sản, thu nhập" và Thanh tra Chính phủ sẽ chủ trì xây dựng đề án trên phạm vi cả nước. "Đây là việc lớn và phải trải qua nhiều bước xây dựng, thiết kế hệ thống. Dự kiến cơ sở dữ liệu này sẽ đảm bảo cho khoảng 2 triệu bản kê khai lần đầu và các năm tiếp theo sẽ tập trung vào các chức danh quan trọng, từ giám đốc sở trở lên cũng như các vị trí dễ xảy ra tham nhũng", ông Tuấn Anh nói.
+Để phục vụ việc này
 
 Theo ông, điều quan trọng là tích hợp cơ sở dữ liệu này với các hệ thống khác, như hệ thống tài khoản ở ngân hàng để chủ động đối soát khi cần thiết.
 

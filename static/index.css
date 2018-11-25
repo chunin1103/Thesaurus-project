@@ -105,7 +105,7 @@ html,body {
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
-    background-color: rgb(255, 121, 31);
+    background-color: rgb(248, 175, 6);
     color: white;
     font-weight: bold;
     padding: 3px 8px;
@@ -167,8 +167,18 @@ li {
     font-size: 2.5rem;
     white-space: nowrap;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 2.5rem;
+    animation: type 1.5s steps(80) 1.3s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;   
 }
 /* hr {
     margin-top: 60px; 
     border: 1px  solid grey;
 } */
+
+#error {
+    justify-content: center;
+    padding-top: 100px; 
+}

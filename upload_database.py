@@ -40,7 +40,7 @@ print(final_list)
 mlab.connect()
 
 u           = search_for
-u_trans     = translator.translate(u)
+u_trans     = translator.translate(u).lower()
 # url_list  = ini_url # + Translator
 
 p = Poll(user_input=u, input_trans=u_trans, symnonyms=tu_dong_nghia, symnonyms_trans=final_list, url_list="Onelook, glosbe, thesaurus")

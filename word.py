@@ -1,1 +1,1 @@
-search_for = "science"
+search_for = "friend"
