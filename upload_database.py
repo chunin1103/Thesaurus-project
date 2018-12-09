@@ -1,3 +1,5 @@
+# set GOOGLE_APPLICATION_CREDENTIALS=E:\Techkids\My First Project-5197852daa26.json
+
 from poll import Poll
 import mlab
 from word import search_for
@@ -8,8 +10,7 @@ from crawl_data_Onelook import *
 from glosbe import *
 from crawl_thesaurus import*
 
-
-
+# I find common words in the results among websites
 def common_member(a, b, c): 
       
     a_set = set(a) 
@@ -19,8 +20,8 @@ def common_member(a, b, c):
         return(a_set.intersection(b_set))   
     else: 
         return("no common elements") 
-tu_tuong_dong    = list(common_member(ds_tu_dong_nghia,symnomym_list,tu_dong_nghia))
-merge_list       = ds_tu_dong_nghia + tu_dong_nghia + symnomym_list  
+tu_tuong_dong    = list(common_member(ds_tu_dong_nghia,symnomym_list_glosbe,tu_dong_nghia))
+merge_list       = ds_tu_dong_nghia + tu_dong_nghia + symnomym_list_glosbe  
 set_tu_lap_lai   = set([item for item in merge_list if merge_list.count(item) > 1])
 tu_lap_lai       = list(set_tu_lap_lai)
 

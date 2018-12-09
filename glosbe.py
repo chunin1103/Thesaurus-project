@@ -14,10 +14,8 @@ soup = BeautifulSoup(webpage_text, "html.parser")
 div1        = soup.find("div",{'id': 'phraseTranslation'})
 div_list    = div1.find_all("div", {'class': 'text-info'})
 
-symnomym_list = []
+symnomym_list_glosbe = []
 for div in div_list:
     symnonym = div.string
     if symnonym is not None:
-        symnomym_list.append(symnonym.capitalize())
-
-print(symnomym_list)
+        symnomym_list_glosbe.append(symnonym.capitalize())

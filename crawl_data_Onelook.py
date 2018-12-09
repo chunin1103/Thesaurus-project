@@ -25,15 +25,22 @@ for word in tu_dong_nghia:
         translation = translate_client.translate(
         word,
         target_language=target)
-        if translation != word.capitalize():
+        if translation['translatedText'].capitalize() != word.capitalize():
                 ds_tu_dong_nghia.append(translation['translatedText'].capitalize())
 print(ds_tu_dong_nghia)
 
+gg_translate_free = [] # testing free vs paid
 for word in tu_dong_nghia:
     translation = translator.translate(word)
-    if translation != word and translation.capitalize() not in ds_tu_dong_nghia:
-        ds_tu_dong_nghia.append(translation.capitalize())
+    gg_translate_free.append(translation)
+#     if translation != word.capitalize() and translation.capitalize() not in ds_tu_dong_nghia:
+#         ds_tu_dong_nghia.append(translation.capitalize())
 
 print(ds_tu_dong_nghia)
+
+from google.cloud import translate
+translate_client = translate.Client()
+target = 'vi'
+
 
 

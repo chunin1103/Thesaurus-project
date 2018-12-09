@@ -17,7 +17,7 @@ ul      = section.find("ul")
 li_list = ul.find_all("li")
 
 symnonym_list = []
-for ___ in range(0,8):
+for ___ in range(0,4):
     span     = li_list[___].span
     a        = span.a
 
@@ -35,3 +35,23 @@ for symnonym in symnonym_list:
     if translation not in tu_dong_nghia and translation != symnonym:
         tu_dong_nghia.append(translation.capitalize())
 print(tu_dong_nghia)
+
+
+from google.cloud import translate
+translate_client = translate.Client()
+target = 'vi'
+
+
+google_api = []
+for symnonym in symnonym_list:
+        translation = translate_client.translate(
+        symnonym,
+        target_language=target)
+        ggAPI_translated = translation['translatedText'].capitalize()
+        google_api.append(ggAPI_translated)
+
+print(google_api)
+
+
+
+
