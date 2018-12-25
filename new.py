@@ -1,4 +1,4 @@
-string = '''Ngoài ra, theo ông Nguyễn Tuấn, các vấn đề về kiểm soát cán bộ, công chức, đặc biệt là tài sản, thu nhập đã được đổi mới căn bản trong Luật. "Luật trước đây đã đề cập đến nội dung về minh bạch tài sản, thu nhập nhưng trên thực tế chưa thực sự quy củ và việc xác minh tài sản còn bị động. Với Luật mới, việc xác minh tài sản, thu nhập sẽ chủ động hơn", ông nói.
+string = '''Ngoài ra, theo ông Nguyễn Tuấn Anh, các vấn đề về kiểm soát cán bộ, công chức, đặc biệt là tài sản, thu nhập đã được đổi mới căn bản trong Luật. "Luật trước đây đã đề cập đến nội dung về minh bạch tài sản, thu nhập nhưng trên thực tế chưa thực sự quy củ và việc xác minh tài sản còn bị động. Với Luật mới, việc xác minh tài sản, thu nhập sẽ chủ động hơn", ông nói.
 
 Cơ quan thanh tra được chủ động yêu cầu xác minh với những cá nhân, lãnh đạo có biến động tài sản bất thường khi kê khai; sử dụng cơ sở dữ liệu để theo dõi biến động tài sản, thu nhập.
 
@@ -31,6 +31,6 @@ for i in range(0, len(phrase)-1,2):
 
 for y in phrase_2:
     if phrase_2.count(y) > 2:
-        print(y, end="                    ")
+        print(y)
 
 
