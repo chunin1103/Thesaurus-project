@@ -5,15 +5,17 @@ from google.cloud import translate
 translate_client = translate.Client()
 
 # The text to translate
-text = u'Hello, world!'
-# The target language
-target = 'vi'
+tungu = ['aleuromancy', 'confused-flour-beetle','floury', 'flourman', 'glacial-milk', 'flour-treatment-agent' ]
+for w in tungu:
+    text = w
+    # The target language
+    target = 'vi'
 
-# Translates some text into [Language]
-translation = translate_client.translate(
-    text,
-    target_language=target)
+    # Translates some text into [Language]
+    translation = translate_client.translate(
+        text,
+        target_language=target)
 
-print(u'Text: {}'.format(text))
-print(u'Translation: {}'.format(translation['translatedText']))
-print(translation['translatedText'])
+    print(u'Text: {}'.format(text))
+    print(u'Translation: {}'.format(translation['translatedText']))
+    print(translation['translatedText'])

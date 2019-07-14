@@ -7,6 +7,7 @@ translator= Translator(to_lang="vi")
 from crawl_data_Onelook import *
 from glosbe import *
 from crawl_thesaurus import*
+# set GOOGLE_APPLICATION_CREDENTIALS=E:\Techkids\My First Project-5197852daa26.json
 
 
 

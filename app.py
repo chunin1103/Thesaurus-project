@@ -29,4 +29,4 @@ def word():
     return render_template("word.html")
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = True)                   

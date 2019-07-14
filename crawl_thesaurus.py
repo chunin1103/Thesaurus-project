@@ -12,7 +12,7 @@ raw_data = conn.read()
 webpage_text = raw_data.decode("utf-8")
 soup = BeautifulSoup(webpage_text, "html.parser")
 
-section = soup.find("section", {'class': "synonyms-container css-7jbvqm e1991neq0"})
+section = soup.find("section", {'class': "synonyms-container css-v6vgu2 e1991neq0"})
 ul      = section.find("ul")
 li_list = ul.find_all("li")
 

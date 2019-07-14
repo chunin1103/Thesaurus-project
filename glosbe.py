@@ -12,12 +12,11 @@ webpage_text = raw_data.decode("utf-8")
 soup = BeautifulSoup(webpage_text, "html.parser")
 
 div1        = soup.find("div",{'id': 'phraseTranslation'})
-div_list    = div1.find_all("div", {'class': 'text-info'})
 
 symnomym_list = []
-for div in div_list:
-    symnonym = div.string
-    if symnonym is not None:
-        symnomym_list.append(symnonym.capitalize())
 
+strong      = div1.find_all("strong")
+for strr in strong:
+    if strr is not None:
+        symnomym_list.append(strr.string.capitalize())
 print(symnomym_list)
