@@ -38,11 +38,10 @@ for p_item in p:
 
 word_type = []
 tu_loai_your_dict = soup.find_all('p', {'class':'pos'})
-for __ in tu_loai_your_dict:
-    a_1           = __.text
-    for word in a_1:
-        word_type = replaceMultiple(word, ['\r', '\n'] , "")
-        word_type = ''.join(word_type)
+    
+#     for word in a_1:
+#         word_type = replaceMultiple(word, ['\r', '\n'] , "")
+#         word_type = ''.join(word_type)
 
 
 
@@ -64,3 +63,4 @@ print(word_type)
 #         if translation != word.capitalize():
 #                 ds_tu_dong_nghia.append(translation['translatedText'].capitalize())
 # print(ds_tu_dong_nghia)
+print(type(str(tu_loai_your_dict[0].find(text=True)).strip()))
